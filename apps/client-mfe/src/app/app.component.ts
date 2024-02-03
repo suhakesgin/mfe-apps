@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { appRoutes } from './app.routes';
 
 @Component({
-  standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
   selector: 'mfe-apps-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
